@@ -1,0 +1,91 @@
+body {
+  background-color: #5d86d8;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 1.5rem;
+}
+
+.container {
+  max-width: 768px;
+  margin: auto;
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #01050e;
+  margin-bottom: 2rem;
+}
+
+input, select, button {
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #d1d5db;
+  border-radius: 4px;
+}
+
+button {
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+#addTask {
+  background-color: #3b82f6;
+  color: white;
+}
+
+#addTask:hover {
+  background-color: #1a56d7;
+}
+
+#clearAll {
+  background-color: #dd3636;
+  color: white;
+  margin-bottom: 2rem;
+}
+
+#clearAll:hover {
+  background-color: #e61414;
+}
+
+#clearAll.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.input-section, .filter-section {
+  margin-bottom: 1.5rem;
+}
+
+.task-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.task-card {
+  background-color: white;
+  padding: 1rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.task-card.overdue {
+  background-color: #fef2f2;
+  color: #b91c1c;
+  border-color: #f87171;
+}
+
+.task-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
