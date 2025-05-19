@@ -1,4 +1,42 @@
-# Task-Manager-App
+# Task-Manager-App (README & Reflection Essay)
+
+## 🚀 How It Works
+
+1. **Add a Task**:  
+   Fill in the task name, category, deadline, and choose a status (e.g. "In Progress"). Click "Add Task" to add it to your list.
+
+2. **Update Status**:  
+   Use the dropdown on each task card to change its status (e.g. mark it as "Completed").
+
+3. **Automatic Overdue Detection**:  
+   If the deadline passes and the task isn’t completed, the app automatically marks it as **Overdue**.
+
+4. **Filter Tasks**:  
+   Filter tasks by status or category using the dropdown and text input at the top.
+
+5. **Clear All**:  
+   Click the “Clear All Tasks” button to remove everything from the list and localStorage.
+
+---
+
+## 🛠 Features
+
+- Add, view, and update tasks  
+- Automatically mark overdue tasks  
+- Filter by category and status  
+- Persistent data with `localStorage`  
+- Simple and responsive card layout    
+
+---
+
+## 🧠 Extra Features
+
+- Real-time filtering as you type in the category filter  
+- Status updates directly from each task card  
+- “Clear All” button to reset task list
+
+---
+
 
 ## 📘 Reflection
 
